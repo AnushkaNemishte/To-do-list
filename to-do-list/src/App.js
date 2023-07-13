@@ -1,9 +1,8 @@
-import './App.css';
-
+import TodoListEntry from "./Components/TodoListEntry";
 function App() {
   return (
-    <div className="App">
-      <h1>Hello Wrold</h1>
+    <div className="container">
+     <TodoListEntry/>
     </div>
   );
 }
