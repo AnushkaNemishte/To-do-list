@@ -4,9 +4,6 @@ export const ToDoApi = createApi({
   reducerPath: "todoapi",
   baseQuery: fetchBaseQuery({ 
     baseUrl: "http://localhost:3001",
-    //refetchOnFocus: true,
-    //refetchOnReconnect: true,
-    //refetchOnMountOrArgChange: true
    }),
   tagTypes:['Todos'],
   endpoints: (builder) => ({
