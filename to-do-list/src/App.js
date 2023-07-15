@@ -1,7 +1,8 @@
 import TodoListEntry from "./Components/TodoListEntry";
+import './App.css'
 function App() {
   return (
-    <div className="container">
+    <div>
      <TodoListEntry/>
     </div>
   );
