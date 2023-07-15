@@ -24,9 +24,12 @@ function TodoListEntry() {
   const [updateTodo] = useUpdateTodosMutation();
   const [deleteTodo] = useDeleteTodosMutation();
   const handleSubmit = (e) => {
+    if(!newTodo){
+      return alert('Please enter a Task')
+    }
     e.preventDefault();
     addTodo({ userId: 1, title: newTodo, completed: false });
-    // setNewTodo("");
+    setNewTodo("");
   };
   let content;
   if(isLoading)
@@ -68,7 +71,7 @@ function TodoListEntry() {
  
   return (
     <div className="Container">
-      <h1 className="text-center mt-3">TO DO LIST</h1>
+      <h1 className="text-start text mt-2">TO DO APP</h1>
       <Card className="card1">
         <Card.Body>
           <Form onSubmit={handleSubmit}>
@@ -78,6 +81,7 @@ function TodoListEntry() {
                   <Form.Control 
                   type="text" 
                   placeholder="Enter New Task"
+                  value={newTodo}
                   onChange={(e) => setNewTodo(e.target.value)}
                    />
                 </Form.Group>

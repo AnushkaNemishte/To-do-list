@@ -2,19 +2,19 @@
   "todos": [
     {
       "userId": 1,
-      "id": 1,
-      "title": "To Do Homework",
-      "completed": true
-    },
-    {
-      "userId": 2,
-      "id": 2,
-      "title": "To Go Office",
-      "completed": false
+      "title": "COOK THE MEAL",
+      "completed": false,
+      "id": 1
     },
     {
       "userId": 1,
-      "title": "shreyashi",
+      "title": "BRING THE VEGETABLES",
+      "completed": true,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "LEARN ENGLISH",
       "completed": true,
       "id": 3
     }
