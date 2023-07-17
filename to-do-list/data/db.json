@@ -21,13 +21,13 @@
     {
       "userId": 1,
       "title": "LEARN HTML & CSS ",
-      "completed": false,
+      "completed": true,
       "id": 4
     },
     {
       "userId": 1,
       "title": "ANUSHKA",
-      "completed": false,
+      "completed": true,
       "id": 5
     }
   ]
