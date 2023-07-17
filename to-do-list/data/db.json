@@ -3,7 +3,7 @@
     {
       "userId": 1,
       "title": "COOK THE MEAL",
-      "completed": false,
+      "completed": true,
       "id": 1
     },
     {
@@ -23,12 +23,6 @@
       "title": "LEARN HTML & CSS ",
       "completed": true,
       "id": 4
-    },
-    {
-      "userId": 1,
-      "title": "ANUSHKA",
-      "completed": true,
-      "id": 5
     }
   ]
 }

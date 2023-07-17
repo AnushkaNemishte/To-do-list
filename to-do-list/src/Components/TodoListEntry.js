@@ -37,11 +37,16 @@ function TodoListEntry() {
   const handleUpdate = (todo) => {
     updateTodo({ ...todo, completed: !todo.completed })
       .then(() => {
-        toast.success("Task Completed Successfully");
+        if(!todo.completed)
+        {
+          toast.success("Task Completed Successfully");
+        }
+       
       })
       .catch((error) => {
         toast.error("Failed to update task");
       });
+     
   };
 
   const handleDelete = (id)=>{
